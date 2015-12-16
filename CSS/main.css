@@ -1,0 +1,8 @@
+body {
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../DSC_1596.jpg");
+    margin: 1%;
+	border: 5px solid #FFFFFF;
+	height: 97%;
+}
