@@ -1,8 +1,20 @@
 body {
 	background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../DSC_1596.jpg");
-    margin: 1%;
+	background-size: cover;
+	background-image: url("../DSC_1596.jpg");
+	margin: 1%;
 	border: 5px solid #FFFFFF;
 	height: 97%;
+}
+
+h1 {
+	margin-left: 5%;
+	margin-top: 55%;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 450%;
+	color: white;
+}
+
+h1:hover {
+	color: #65ADA2;
 }
