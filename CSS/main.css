@@ -9,8 +9,29 @@ body {
 
 h1 {
 	margin-left: 5%;
-	margin-top: 55%;
+	margin-top: 50%;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 450%;
+	color: #FFFFFF;
+}
+
+#Nav ul {
+	list-style-type: none;
+	margin-top: 0%;
 	color: white;
+	margin-left: 3.5%;
+}
+
+#Nav ul li {
+	width: 70px;
+	display: inline;
+	padding: 10px;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #B3D9FF;
 }
