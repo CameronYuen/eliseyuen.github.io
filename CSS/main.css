@@ -7,9 +7,14 @@ body {
 	height: 97%;
 }
 
+
+.intro {
+	position: absolute;
+	left: 5%;
+	top: 75%;
+}
+
 h1 {
-	margin-left: 5%;
-	margin-top: 45%;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 450%;
 	color: #FFFFFF;
@@ -18,7 +23,7 @@ h1 {
 #Nav ul {
 	list-style-type: none;
 	margin-top: 0%;
-	color: white;
+	color: #FFFFFF;
 	margin-left: 8%;
 }
 
@@ -43,4 +48,3 @@ a:hover {
  vertical-align: middle;
  line-height: 0px;
 }
-
