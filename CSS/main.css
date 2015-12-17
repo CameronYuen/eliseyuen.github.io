@@ -19,13 +19,13 @@ h1 {
 	list-style-type: none;
 	margin-top: 0%;
 	color: white;
-	margin-left: 3.5%;
+	margin-left: 7%;
 }
 
 #Nav ul li {
 	width: 70px;
 	display: inline;
-	padding: 10px;
+	padding: 2px;
 }
 
 a {
@@ -35,3 +35,15 @@ a {
 a:hover {
 	color: #B3D9FF;
 }
+
+#Nav a i {
+ width: 40px;
+ height: 40px;
+ font-size: 20px;
+ vertical-align: middle;
+ line-height: 0px;
+ margin-right: 2px;
+ margin-left:0px;
+ transition: all 0.2s ease-in-out;
+}
+
