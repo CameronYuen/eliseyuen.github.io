@@ -1,12 +1,8 @@
-body {
+#headersection {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url("../DSC_1596.jpg");
-	margin: 1%;
-	border: 5px solid #FFFFFF;
-	height: 97%;
 }
-
 
 .intro {
 	position: absolute;
@@ -38,7 +34,7 @@ a {
 }
 
 a:hover {
-	color: #B3D9FF;
+	color: #b4c7e9;
 }
 
 #Nav a i {
@@ -47,4 +43,50 @@ a:hover {
  font-size: 20px;
  vertical-align: middle;
  line-height: 0px;
+}
+
+
+@media only screen and (max-width: 50em) {
+	body{
+		margin: 0%;
+	}
+
+	#headersection {
+		background-image: none;
+		/* background-color: #b4c7e9; */
+	}
+
+	img {
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	#pic {
+		vertical-align: bottom;
+	}
+
+	.intro {
+		top: 66%;
+		position: absolute;
+		left: auto;
+		right: auto;
+	}
+
+	 #Name {
+		font-size: 300%;
+		text-align: center;
+	}
+
+	h1, a {
+		color: #81a1da;
+	}
+
+	#Nav a i {
+ 		width: 30px;
+ 		height: 30px;
+ 		font-size: 18px;
+	}
+
 }
